@@ -12,10 +12,12 @@ $ gcc -o nanopond-ch nanopond-ch.c -lSDL
 See the C source code for numerious compile time options.
 
 ## Files
-build - simple build script
-nanopond-1.9.c - original Nanopond version 1.9, Copyright (C) 2005 Adam Ierymenko.
-nanopond-ch.c - my modified version
-README.md - this file
+| File           | Description |
+|----------------|-------------|
+| build          | simple build script |
+| nanopond-1.9.c | original Nanopond version 1.9, Copyright (C) 2005 Adam Ierymenko. |
+| nanopond-ch.c  | my modified version |
+| README.md      | this file |
 
 ## Modifications from original
 - Changed to use one byte per instruction instead of packed bits in words, to more easily experiment with instructions.
