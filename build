@@ -1,0 +1,4 @@
+#!/bin/bash
+
+gcc -Wall -O6 -funroll-loops -fomit-frame-pointer -s -o nanopond-ch nanopond-ch.c -lSDL
+#gcc -g -o nanopond-ch nanopond-ch.c -lSDL
